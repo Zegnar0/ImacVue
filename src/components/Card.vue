@@ -71,5 +71,12 @@
     cursor: pointer;
     outline: none;
   }
+  
+  /* Responsive Styling */
+  @media (max-width: 768px) {
+    .card {
+      width: 100%;
+    }
+  }
   </style>
   

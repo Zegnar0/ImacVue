@@ -1,22 +1,26 @@
 <template>
-     <div id="app">
-        <Card
+  <div id="app">
+    <Header />
+      <Card
         v-for="(rocket, index) in rockets"
-      :key="index"
-      :imageUrl="rocket.flickr_images[0]"
-      :title="rocket.name"
-      :description="rocket.description"
-    />
-    </div>
-  
+        :key="index"
+        :imageUrl="rocket.flickr_images[0]"
+        :title="rocket.name"
+        :description="rocket.description"
+      />
+    <Footer />
+  </div>
 </template>
+
 
 <script>
 import Card from './components/Card.vue';
+import Footer from './components/Footer.vue';
+import Header from "./components/Header.vue";
 
 export default {
   components: {
-    Card,
+    Card,Footer, Header,
   },
   data() {
     return {
@@ -41,3 +45,14 @@ export default {
 };
 </script>
 
+<style>
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+
+}
+
+
+
+</style>
