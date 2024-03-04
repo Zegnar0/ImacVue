@@ -40,6 +40,7 @@
     border-radius: 8px;
     overflow: hidden;
     margin: 16px;
+    margin-top:70px ;
   }
   
   .card-image {

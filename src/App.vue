@@ -17,6 +17,7 @@
 import Card from './components/Card.vue';
 import Footer from './components/Footer.vue';
 import Header from "./components/Header.vue";
+import Modal from "./components/Modal.vue";
 
 export default {
   components: {
