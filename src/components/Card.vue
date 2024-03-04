@@ -10,6 +10,7 @@
   </template>
   
   <script>
+  import Modal from "./Modal.vue";
   export default {
     props: {
       imageUrl: {

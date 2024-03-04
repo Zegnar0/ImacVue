@@ -1,5 +1,4 @@
-<template>
-  <div id="app">
+<template>  
     <Header />
       <Card
         v-for="(rocket, index) in rockets"
@@ -9,7 +8,6 @@
         :description="rocket.description"
       />
     <Footer />
-  </div>
 </template>
 
 
